@@ -15,14 +15,12 @@ body {
     font-size: 25px;
     line-height: 21px;
 
-    
+
 }
 
 .main-nav {
     /* background-color: black; */
-    background: linear-gradient(
-20deg
-, black, white);
+    background: linear-gradient(20deg, black, white);
     display: flex;
     justify-content: space-between;
     padding: 20px;
