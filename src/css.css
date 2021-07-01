@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@viewport {
+    width: device-width;
+    zoom: 1.0
+}
+
+
+body {
+    background-color: pink;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 25px;
+    line-height: 21px;
+}
+
+.main-nav {
+    /* background-color: black; */
+    background: linear-gradient(
+20deg
+, black, white);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-menu-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+    position: relative;
+    font-size: 70px;
+    left: 100px;
+    bottom: -20px;
+    
+}
+
+.main-menu {
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    top: auto;
+    left: -150px;
+    margin:15px;
+}
+
+.main-menu a {
+    color: white;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin:15px;
+}
+
+
+.menu-border {
+    border: 2px solid ;
+    padding: 17px;
+
+    
+}          
+.main-menu-border::before {
+    background-position: center;
+    background-size: contain;
+    background-image: url(../public/img/127078.png);
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    border: 3px solid ;
+    border-radius: 50%;
+    
+}
+.main-menu a:hover {
+    color:rgb(4, 213, 250);
+}
+                
+.main-content {
+    margin: -20px;
+}  
+
+.title { 
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}    
+
+.box {
+    display: inline-block;
+}
+
+
+/* section 1 */
+.container {
+    
+    overflow: hidden;
+    /* position: relative; */
+    text-align: center;
+    color: white;
+   margin-top: 20px;
+}
+.img {
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1440px;
+}  
+.centered-text{
+    position: absolute;
+    top: 29%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 80px;
+    text-shadow: 6px 5px 2px black;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 35px;
+    text-shadow: 2px 8px 3px black;
+}
+.information{
+    position: absolute;
+    top: 75%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 35px;
+    text-shadow: 2px 8px 3px black;
+    color: white;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+}
+/* .list {
+    margin: 20px;
+    display: inline-block;
+} */
+
+/* .team {
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+/* section 2 */
+/* .about {
+    width: 100%;
+    margin-top: -2px;
+    background-color: grey;
+} */
+
+  
+
+.container2 {
+    /* margin-left: 190px;
+    margin-top: -40px; */
+    background-image: url("img/IMG_1018.JPG");
+    box-shadow: 0 0 8px 8px white inset;
+    margin-left: 20px;
+    width: 100%;
+    height: 900px;
+    color: white;
+    margin-top: -2px;
+}
+
+.caption1 {
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 20px;
+    
+    font-family: cursive;
+    font-size: 68px;
+    
+}
+.girlinhat{
+    
+    margin-left: 190px;
+    margin-top: -55px;
+    left: 217px;
+    width: 479px;
+    height: 626px;
+    filter: drop-shadow(5px 5px 5px white);
+    
+}
+
+.aboutme-info::selection{
+    background-color: red;
+    color: white;
+}
+.subtitle{
+    display: inline-block;
+    margin-top: 100px;
+    text-align: justify;
+    width: 610px;
+    height: 550px;
+    float: right;
+    text-align: right;
+    margin-right: 80px;
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 35px;
+    text-shadow: 2px 8px 3px black;
+    padding:30px;
+    color:white;
+    
+}
+
+.aboutme-info{
+    margin-top: 92px;
+    font-size: 25px;
+    text-align: left;
+}
+.aboutme-info::before{
+    display:block;
+    width:200px;
+    height:4px;
+    background-color:white;
+    content: "";
+    margin-bottom: 20px;
+}
+.container2::after{
+    content: "";
+    clear: both;
+}
+
+.boxinfo{
+    padding: 120px;
+    background-color: white;
+    width: 100%;
+    content: "";
+    font-family: cursive;
+    
+}
+
+.caption2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 80px;
+    text-transform: uppercase;  
+}
+.boxelements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    width: 400px;
+    height: 480px;;
+    border: 2px solid;
+    text-align: center;
+    font-size: 15px;
+
+}
+.icon1{
+    width: 260px;
+    height: 350px;
+}
+.icon1:hover{
+    translate: scale(0,5);
+}
+
+.button{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+    
+    background-color:black;
+    text-transform: uppercase;
+    transition-duration: 3s; 
+    
+ 
+}
+.button:hover {
+    transition-delay: 0.5s;
+    
+    background-color:blue;
+}
+
+
+
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 1px;
+    padding:10px;
+    width: 400px;
+    height: 480px;;
+    border: 2px solid;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icon2{
+    width: 260px;
+    height: 350px;
+}
+.botttom2{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid blue;
+    background-color: black;
+    text-transform: uppercase;
+}
+/* section gallery */
+.gallery{
+    width:100%;
+    height:1760px;
+    background-color: white;
+    font-family: serif; 
+}
+
+.gallery-title{
+    margin-top: -21px;
+    padding: 60px;
+     color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif; 
+    text-transform: uppercase;  
+}
+.list{
+
+
+    align-content: stretch;
+    position: relative;
+    width:100%;
+    height: 900px;
+
+}
+.img1 {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+} 
+
+.img2 {
+    position: absolute;
+   
+    width: 490px;
+    height: 660px;
+    margin-left: 970px;
+    margin-top: 760px;
+}
+.img3{
+    position: absolute;
+    width: 490px;
+    height: 660px;
+    margin-left: 480px;
+    margin-top: 760px;
+}
+.img4{
+    position: absolute;
+    width: 490px;
+    height: 660px;
+    margin-top: 760px;
+}
+
+.showmore{
+  position: absolute;  
+  text-align: center;
+  border: 2px solid black;
+  padding: 17px;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  width: 230px;
+  display: inline-block;
+  text-align: center;
+  transform: translate(610px, 590px);
+  color:black;
+
+}
+ 
+/* section contact */
+.contacts {
+    margin-top: -21px;
+    background: linear-gradient( 360deg, black, rgb(220 213 213), white);
+    
+    width: 100%;
+    content: "";
+    height: 700px;
+    font-family: serif; 
+}
+
+.contacts-title{
+    padding: 80px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif; 
+    text-transform: uppercase;  
+
+}
+
+
+.singup-from{
+    width: 600px;
+    height: 500px;
+   
+    margin-left: 100px;
+    align-items: stretch;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content:space-between;
+    text-transform: uppercase;
+}
+.youremail{
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+.email{
+    margin-top: 20px;
+    color:grey;
+    /* border: 2px solid black; */
+    height: 40px;
+}
+
+.yourname{
+    font-size: 20px;
+    margin-top: 36px;
+    
+}
+.name{
+    
+    color:grey;
+    /* border: 2px solid black; */
+    height: 40px;
+}
+
+input:invalid {
+    border: red solid 3px;
+  }
+
+  input {
+      border: none;
+  }
+
+.yourmessage{
+    font-size: 20px;
+    margin-top: 36px;
+}
+.text{
+   
+    color:grey;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+.email:valid{
+    border-color:green;
+}
+.name:valid{
+    border-color:green;
+}
+.text:valid{
+    border-color:green;
+}
+.submit,
+.reset {
+    margin-left: 70px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+}
+/* .reset{
+    
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+} */
+.picforcontacts{
+    width: 600px;
+    height:640px;
+    position:absolute;
+  
+    transform: translate(750px, -500px);
+}
